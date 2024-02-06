@@ -1,0 +1,48 @@
+/*-----------------------
+    RESET
+------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    border: 4px solid coral;
+    position: relative;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+}
+
+.square-green {
+    background-color: lightgreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square-blue {
+    background-color: lightblue;
+    position: absolute;
+}
+
+header {
+    position: fixed;
+    /* position: sticky; */
+    padding: 20px;
+    background-color: #ddd;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+main {
+    padding-top: 60px;
+}
